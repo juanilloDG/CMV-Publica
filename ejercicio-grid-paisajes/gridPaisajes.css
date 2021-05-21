@@ -22,7 +22,9 @@ li {
 }
 
 #footer {
-    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
     border-radius: 5px;
 }
 
@@ -56,6 +58,7 @@ li {
 
 .photos-container {
     display: grid;
+    grid-auto-flow: row;
     grid-template-columns: 33.33% 33.33% 33.33%;
     border-radius: 5px;
 }
@@ -63,6 +66,12 @@ li {
 .card-container {
     padding: 1%;
     border-radius: 5px;
+}
+
+.diaNoche {
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.5);
+    float: right;
 }
 
 .card {
@@ -95,8 +104,10 @@ img {
     background-color: rgba(255, 0, 0, 0.5);
 }
 
-.signature {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
+.dia {
+    color: #0000ff !important;
+}
+  
+.noche {
+    color: #ff0000 !important;
 }

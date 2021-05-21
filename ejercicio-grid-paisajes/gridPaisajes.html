@@ -6,6 +6,7 @@
         <title>grid Paisajes actualizado</title>
         <link rel="stylesheet" href="gridPaisajes.css">
         <link rel="stylesheet" href="../styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
         <div id="main">
@@ -26,6 +27,9 @@
                         </li>
                         <li class="float-right">
                             <a href="#">About</a>
+                        </li>
+                        <li>
+                            <button class="diaNoche">noche/dia</button>
                         </li>
                     </ul>
                 </div>
@@ -79,4 +83,9 @@
             </div>
         </div>
     </body>
+    <script>
+        $("button").click(function(){
+			$("h2, p").toggleClass("noche");
+	    });
+    </script>
 </html>

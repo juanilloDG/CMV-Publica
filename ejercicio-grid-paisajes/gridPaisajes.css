@@ -1,0 +1,102 @@
+li {
+    display: inline;
+}
+
+#main {
+    position: relative;
+    display: grid;
+    grid-template-rows: 20% 75% 5%;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    border-radius: 5px;
+}
+
+#content {
+    display: grid;
+    grid-template-rows: 70% 30%;
+    border-radius: 5px;
+}
+
+#footer {
+    position: relative;
+    border-radius: 5px;
+}
+
+.navbar-container {
+    height: 30%;
+}
+
+.horizontal {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    background-color: #222;
+}
+
+.logo {
+    background-color: red;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.photos-container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    border-radius: 5px;
+}
+
+.card-container {
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.text-container {
+    padding: 1%;
+}
+
+.landScape-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.signature {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}

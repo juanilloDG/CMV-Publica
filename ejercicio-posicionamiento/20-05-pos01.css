@@ -1,0 +1,22 @@
+#container {
+    display: flex;
+}
+
+#bluebox {
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+}
+
+#greenbox {
+    background-color: green;
+    width: 300px;
+    height: 200px;
+}
+
+#yellowbox {
+    position: absolute;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}

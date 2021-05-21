@@ -1,0 +1,42 @@
+.image-size{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2%;
+    height: 200px;
+    width: 160px;
+    transition: 0.5s;
+}
+
+.card:hover{
+    height: 300px;
+    width: 260px;
+}
+
+.nameChar{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.inicio {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    background-color: #999; 
+}
+
+a {
+    color: #000;
+}
+
+.inicio:hover {
+    background-color: #444;
+    color: white;
+}

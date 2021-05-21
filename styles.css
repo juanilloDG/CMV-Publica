@@ -1,0 +1,48 @@
+body {
+    background-color: burlywood;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.width-33 {
+    width: 33%;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 1%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: magenta;
+}

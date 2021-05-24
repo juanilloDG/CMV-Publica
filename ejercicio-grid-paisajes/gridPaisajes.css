@@ -58,7 +58,6 @@ li {
 
 .photos-container {
     display: grid;
-    grid-auto-flow: row;
     grid-template-columns: 33.33% 33.33% 33.33%;
     border-radius: 5px;
 }
@@ -111,3 +110,11 @@ img {
 .noche {
     color: #ff0000 !important;
 }
+
+@media screen and (max-width: 600px) {
+    .photos-container {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+  }

@@ -40,7 +40,7 @@ ul {
 
 li {
     display: block;
-    padding: 0.72%;
+    padding: 0.73%;
 }
 
 a {
@@ -53,4 +53,11 @@ a {
 
 a:hover {
     color: magenta;
+}
+
+button {
+    height: 25px;
+    background-color:darkred;
+    border: none;
+    border-radius: 5px;
 }

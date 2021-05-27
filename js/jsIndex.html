@@ -1,0 +1,169 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="jsIndex.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="jsIndex.js"></script>
+        <title>jsIndex</title>
+    </head>
+    <body>
+
+        <header>
+            <h1>Ejericios JavaScript</h1>
+            <p id="height"></p>
+            <p id="width"></p>
+        </header>
+
+        <main>
+            <div id="buttons">
+                <button onclick="ejercicio8()">Ejercicio 8</button>
+                <button onclick="ejercicio9()">Ejercicio 9</button>
+                <button onclick="ejercicio10()">Ejercicio 10</button>
+                <button onclick="ejercicioC5()"> Ejercicio c5</button>
+                <button onclick="ejercicioc13()"> Ejercicio c13</button>
+                <button onclick="ejercicio11()"> Ejercicio 11</button>
+            </div>
+            <div id="resultados">
+                <p id="ejercicio"></p>
+                <p id="jquery"></p>
+            </div>
+        </main>
+
+        <footer>
+
+        </footer>
+
+        
+        
+    </body>
+    <script>
+
+        window.onload = function () {
+            resize();
+        };
+
+        window.onresize = function () {
+            resize();
+        };
+
+
+        //ejercicio 8
+        function ejercicio8() {
+            let dato, num,  total, resultado;
+
+            dato = window.prompt("introduce un numero?", "0");
+
+            num = parseInt(dato);
+            total = num * 2;
+
+            resultado = `El doble es ${total}`;
+
+            document.getElementById("ejercicio").innerHTML = resultado
+            //document.write(`<br/> <br/> el doble es ${num}`);
+        }
+        
+
+        //ejercicio 9
+        function ejercicio9() {
+            let dato, num, double, resultado;
+
+            dato = window.prompt("introduce un numero?", "0")
+
+            num = parseInt(dato);
+            double = num * 2;
+            num += double;
+
+            resultado = `el resultado de la nueva operacion es ${num}`;
+
+            $("#jquery").text(`mensaje con query`);
+            document.getElementById("ejercicio").innerHTML = resultado;
+        }
+
+        //ejercicio 10
+        function ejercicio10() {
+            let contador = 0;
+            let dato;
+            let num;
+            
+            while ((contador < 5) && (dato != 7)){
+                dato = window.prompt("introduce un numero del 1 al 10", "");
+                num = parseInt(dato);
+
+                contador++;
+            }
+
+            resultado = `
+                <h3> fin del programa contador ya no es menor que 5</h3>
+                <br/> ultimo numero introducido es ${num}`;
+
+            document.getElementById("ejercicio").innerHTML = resultado;
+        }
+        
+
+        //ejercicio c5
+        function ejercicioC5() {
+            var resultado;
+
+            let num1 = window.prompt("introduce primer numero", "");;
+            let num2 = window.prompt("introduce segundo numero", "");; 
+            
+            if (num1>num2) {
+                resultado = `el numero mayor es ${num1}`;
+            }else if(num1<num2) {
+                 resultado =`el numero mayor es ${num2}`;
+            } else {
+                resultado =`los dos son iguales`;
+            }
+
+            document.getElementById("ejercicio").innerHTML = resultado;
+        }
+
+        //ejercicio c13
+        function ejercicioc13() {
+            var resultado;
+
+            let num1 = window.prompt("introduce primer numero", "");;
+            let num2 = window.prompt("introduce segundo numero", "");; 
+
+            if ((!isNaN(num1)) && (!isNaN(num2))) {
+
+                if (num1>num2) {
+                    resultado = `el numero mayor es ${num1}`;
+                }else if(num1<num2) {
+                    resultado =`el numero mayor es ${num2}`;
+                } else {
+                    resultado =`los dos son iguales`;
+                }
+
+            } else {
+                resultado = `no has introducido un numero valido`;
+            }
+            
+
+            document.getElementById("ejercicio").innerHTML = resultado;
+        }
+
+        //ejercicio 11
+        function ejercicio11() {
+            var x, y;
+
+            y = window.innerHeight;
+            x = window.innerWidth;
+
+            document.getElementById("ejercicio").innerHTML = `x: ${x} y: ${y}`;
+        }
+
+        //resize de la ventana
+        function resize() {
+            let height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+            let width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+            document.getElementById("height").innerHTML = `height de la pagina : ${height}`;
+            document.getElementById("width").innerHTML = `width de la pagina: ${width}`;
+        }
+        
+
+    </script>
+</html>

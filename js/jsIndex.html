@@ -13,11 +13,10 @@
 
         <header>
             <h1>Ejericios JavaScript</h1>
-            <p id="height"></p>
-            <p id="width"></p>
-        </header>
-
-        <main>
+            <div class="resize">
+                <p id="height"></p>
+                <p id="width"></p>
+            </div>
             <div id="buttons">
                 <button onclick="ejercicio8()">Ejercicio 8</button>
                 <button onclick="ejercicio9()">Ejercicio 9</button>
@@ -25,7 +24,11 @@
                 <button onclick="ejercicioC5()"> Ejercicio c5</button>
                 <button onclick="ejercicioc13()"> Ejercicio c13</button>
                 <button onclick="ejercicio11()"> Ejercicio 11</button>
+                <button onclick="ejercicioF4()">Ejercicio f4</button>
             </div>
+        </header>
+
+        <main>
             <div id="resultados">
                 <p id="ejercicio"></p>
                 <p id="jquery"></p>
@@ -60,7 +63,6 @@
             resultado = `El doble es ${total}`;
 
             document.getElementById("ejercicio").innerHTML = resultado
-            //document.write(`<br/> <br/> el doble es ${num}`);
         }
         
 
@@ -101,12 +103,12 @@
         }
         
 
-        //ejercicio c5
+        //ejercicio condicionales 5
         function ejercicioC5() {
             var resultado;
 
-            let num1 = window.prompt("introduce primer numero", "");;
-            let num2 = window.prompt("introduce segundo numero", "");; 
+            let num1 = window.prompt("introduce primer numero", "");
+            let num2 = window.prompt("introduce segundo numero", "");
             
             if (num1>num2) {
                 resultado = `el numero mayor es ${num1}`;
@@ -119,12 +121,12 @@
             document.getElementById("ejercicio").innerHTML = resultado;
         }
 
-        //ejercicio c13
+        //ejercicio condicionales 13
         function ejercicioc13() {
             var resultado;
 
-            let num1 = window.prompt("introduce primer numero", "");;
-            let num2 = window.prompt("introduce segundo numero", "");; 
+            let num1 = window.prompt("introduce primer numero", "");
+            let num2 = window.prompt("introduce segundo numero", "");
 
             if ((!isNaN(num1)) && (!isNaN(num2))) {
 
@@ -154,6 +156,26 @@
             document.getElementById("ejercicio").innerHTML = `x: ${x} y: ${y}`;
         }
 
+        //ejercicio Funciones 4
+        function ejercicioF4() {
+            let n1, n2, total, resultado;            
+
+            function suma() {
+
+                n1 = parseInt(window.prompt("introduce primer numero", ""));
+                n2 = parseInt(window.prompt("introduce primer numero", ""));
+
+                total = n1 + n2;
+
+                return total;
+            }
+
+            $("#ejercicio").append(`
+                <p> El resultado es ${suma()} </p>
+                <p> La funcion utiliza la sentencia <b> return </b> para devolver un valor.</p>
+            `);
+        }
+
         //resize de la ventana
         function resize() {
             let height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
@@ -161,7 +183,6 @@
             document.getElementById("height").innerHTML = `height de la pagina : ${height}`;
             document.getElementById("width").innerHTML = `width de la pagina: ${width}`;
         }
-        
 
     </script>
 </html>

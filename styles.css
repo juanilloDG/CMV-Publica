@@ -39,7 +39,7 @@ ul {
 }
 
 li {
-    display: block;
+    display: inline-block;
     padding: 0.73%;
 }
 

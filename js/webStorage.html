@@ -1,0 +1,106 @@
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="webStorage.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <title>LocalStorage & SesionStorage</title>
+
+    </head>
+    <body>
+
+        <br>
+        
+        <header>
+            <h1>LocalStorage & SesionStorage</h1>
+            <div class="navbar-container">
+                <ul class="horizontal">
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Miau 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Miau 2</a>
+                    </li>
+                    <li class="float-right">
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>       
+            <div id="ejercicio1">
+                <h3>Ejercicio 1</h3>
+                <p>elija su color de fondo</p>
+                <input type="color" id="micolor" name="favcolor" value="#ffffff">
+                <button onclick="cambiarColor()"> aplicar color de fondo</button>
+            </div>
+            <div id="ejercicio2">
+                <h3>Ejercicio 2</h3>
+                <p>introduce un nombre de usuario</p>
+                <p class="usuarioConectado"></p>
+                <input type="text" id="usuario" name="usr" maxlength="10" placeholder="usuario">
+                <button onclick="ingresar()">Ingresar</button>
+                <button onclick="desconectar()">desconectar</button>
+            </div>
+        </main>
+
+        <footer></footer>
+
+    </body>
+
+    <script>
+
+        window.onload = inicio();
+
+        function inicio() {
+            iniCambiarColor();
+            mostrarUsuario();
+        }
+
+        //Ejercicio 1
+        function iniCambiarColor() {
+            if (localStorage.getItem("colorfondo")) {
+                var colorfondo = localStorage.getItem("colorfondo");
+                $("body").css("background-color", colorfondo);
+            }
+        };
+
+        function cambiarColor() {
+            var colorfondo = $("#micolor").val();
+            $("body").css("background-color", colorfondo);
+
+            localStorage.setItem("colorfondo", colorfondo);
+        };
+
+        //Ejercicio 2
+        function ingresar() {
+            let usuario = $("#usuario").val();
+            localStorage.setItem("usuario", usuario);
+            $(".usuarioConectado").text("Bienvenido de nuevo " + usuario);
+        }
+
+        function mostrarUsuario() {
+            if (localStorage.getItem("usuario")) {
+                var usuario = localStorage.getItem("usuario");
+                $(".usuarioConectado").text("Bienvenido de nuevo " + usuario);
+            }
+        }
+
+        function desconectar() {
+            localStorage.removeItem("usuario");
+            $(".usuarioConectado").text("");
+        }
+
+    </script>
+
+</html>

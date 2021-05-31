@@ -19,4 +19,8 @@
         <nombre>CANDIDO</nombre>
         <clave>VIDAL</clave>
     </usuario>
+    <usuario nro="6">
+        <nombre>MANOLO</nombre>
+        <clave>GONZALEZ</clave>
+    </usuario>
 </registrados>

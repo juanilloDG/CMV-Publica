@@ -1,11 +1,11 @@
 <registrados>
     <usuario nro="1">
         <nombre>USR1</nombre>
-        <clave>clave1</clave>
+        <clave>clave5</clave>
     </usuario>
     <usuario nro="2">
         <nombre>USR2</nombre>
-        <clave>clave2</clave>
+        <clave>clave4</clave>
     </usuario>
     <usuario nro="3">
         <nombre>USR3</nombre>
@@ -13,7 +13,7 @@
     </usuario>
     <usuario nro="4">
         <nombre>USR4</nombre>
-        <clave>clave4</clave>
+        <clave>clave2</clave>
     </usuario>
     <usuario nro="5">
         <nombre>CANDIDO</nombre>

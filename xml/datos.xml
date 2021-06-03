@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orla>
+    <card>
+        <name id="1">
+            Korriban
+        </name>
+        <photo>
+            https://i.ibb.co/pvLMRdT/korriban.jpg
+        </photo>
+        <foot>
+            sith
+        </foot>
+        <details>
+            Korriban, conocido como Pasegam durante el reinado de Xim, y como Moraband durante las Guerras Clon,
+            era el único planeta del sistema Horuset, situado al otro lado de la galaxia desde Koros Mayor. 
+            Fue el mundo nativo de las especies sith y un lugar sagrado para la Orden Sith, albergando las tumbas de 
+            antiquísimos y poderosos Señores Oscuros de los Sith y conteniendo un tremendo poder del lado oscuro.
+        </details>
+    </card>
+    <card>
+        <name id="2">
+            Takodana
+        </name>
+        <photo>
+            https://i.ibb.co/5WfPGxr/takodana.jpg
+        </photo>
+        <foot>
+            neutral
+        </foot>
+        <details>
+            Cubierto por extensas selvas y grandes lagos, Takodana era un punto de partida popular que ofrecía 
+            fácil acceso a las rutas comerciales que conectaban el Borde Interior y Territorios del Borde Exterior. 
+            Para aquellos que se dirigían hacia el exterior de la periferia galáctica, el planeta fue visto como un 
+            último sabor de la civilización, mientras que aquellos que se dirigían a los Mundos del Núcleo lo vieron 
+            como un último asimiento de la vida fronteriza. Los viajeros encontraban el estado de neutralidad del 
+            planeta y su distanciamiento de la política galáctica como características atractivas, teniendo como 
+            resultado que Takodana se convirtiera en un refugio para fugitivos, contrabandistas y exploradores. 
+            Fue conocido durante mucho tiempo como hogar del castillo de Maz Kanata, que sirvió como un puerto 
+            abierto a sospechosos espías y viajeros por igual.
+        </details>
+    </card>
+    <card>
+        <name id="3">
+            Felucia
+        </name>
+        <photo>
+            https://i.ibb.co/QpPBmcx/felucia.jpg
+        </photo>
+        <foot>
+            neutral
+        </foot>
+        <details>
+            Felucia era un planeta selvático colorido y húmedo ubicado en el sistema Felucia de los 
+            Territorios del Borde Exterior de la galaxia. Ubicada a lo largo de la Ruta Comercial Perlemiana, 
+            su importante ubicación estratégica lo convirtió en un importante campo de batalla durante las Guerras Clon.
+        </details>
+    </card>
+    <card>
+        <name id="4">
+            Alderaan
+        </name>
+        <photo>
+            https://i.ibb.co/wS8vdDJ/alderaan.jpg
+        </photo>
+        <foot>
+            republica
+        </foot>
+        <details>
+            Alderaan, ubicado en los Mundos del Núcleo, era un planeta terrestre cubierto de montañas. 
+            Durante las últimas décadas de la República Galáctica, fue gobernado por la Reina Breha Organa 
+            y representado en el Senado Galáctico por su marido, el Senador Bail Organa.
+        </details>
+    </card>
+    <card>
+        <name id="5">
+            Coruscant
+        </name>
+        <photo>
+            https://i.ibb.co/mz2hCGh/coruscant.jpg
+        </photo>
+        <foot>
+            republica
+        </foot>
+        <details>
+            Situado en el subsector Coruscant del sector Corusca en la región de los Mundos del Núcleo, 
+            Coruscant fue un planeta cubierto por una densa ecumenópolis. Con 12,240 kilómetros de diámetro, 
+            Coruscant orbitaba relativamente lejos de su pequeño sol, variando entre 207 a 251 millones de 
+            kilómetros, por lo que no tenía un clima que favoreciera a alguna especie en particular, aunque 
+            este inconveniente fue rectificado mediante métodos tecnológicos gracias al vasto calor generado 
+            por su paisaje urbano a varios niveles. Desde el espacio, la luminosidad de Coruscant se veía 
+            ligeramente atenuada por la tenue capa de nubes del planeta. Los patrones climáticos del planeta 
+            estaban afectados por los edificios perforadores de la troposfera que cubrían la superficie del planeta. 
+            Dentro de los edificios más altos, las enormes diferencias de temperatura y presión del aire de arriba 
+            hacia abajo producían microclimas inusuales e impredecibles. Debido a este motivo, Coruscant tenía su 
+            propio sistema de control del clima. Miles de años de desarrollo destruyeron los antiguos mares y 
+            montañas del planeta. La Plaza de los Monumentos albergaba al último pico montañoso de Coruscant.
+        </details>
+    </card>
+    <card>
+        <name id="1">
+            Korriban
+        </name>
+        <photo>
+            https://i.ibb.co/pvLMRdT/korriban.jpg
+        </photo>
+        <foot>
+            sith
+        </foot>
+        <details>
+            Korriban, conocido como Pasegam durante el reinado de Xim, y como Moraband durante las Guerras Clon,
+            era el único planeta del sistema Horuset, situado al otro lado de la galaxia desde Koros Mayor. 
+            Fue el mundo nativo de las especies sith y un lugar sagrado para la Orden Sith, albergando las tumbas de 
+            antiquísimos y poderosos Señores Oscuros de los Sith y conteniendo un tremendo poder del lado oscuro.
+        </details>
+    </card>
+    <card>
+        <name id="2">
+            Takodana
+        </name>
+        <photo>
+            https://i.ibb.co/5WfPGxr/takodana.jpg
+        </photo>
+        <foot>
+            neutral
+        </foot>
+        <details>
+            Cubierto por extensas selvas y grandes lagos, Takodana era un punto de partida popular que ofrecía 
+            fácil acceso a las rutas comerciales que conectaban el Borde Interior y Territorios del Borde Exterior. 
+            Para aquellos que se dirigían hacia el exterior de la periferia galáctica, el planeta fue visto como un 
+            último sabor de la civilización, mientras que aquellos que se dirigían a los Mundos del Núcleo lo vieron 
+            como un último asimiento de la vida fronteriza. Los viajeros encontraban el estado de neutralidad del 
+            planeta y su distanciamiento de la política galáctica como características atractivas, teniendo como 
+            resultado que Takodana se convirtiera en un refugio para fugitivos, contrabandistas y exploradores. 
+            Fue conocido durante mucho tiempo como hogar del castillo de Maz Kanata, que sirvió como un puerto 
+            abierto a sospechosos espías y viajeros por igual.
+        </details>
+    </card>
+    <card>
+        <name id="3">
+            Felucia
+        </name>
+        <photo>
+            https://i.ibb.co/QpPBmcx/felucia.jpg
+        </photo>
+        <foot>
+            neutral
+        </foot>
+        <details>
+            Felucia era un planeta selvático colorido y húmedo ubicado en el sistema Felucia de los 
+            Territorios del Borde Exterior de la galaxia. Ubicada a lo largo de la Ruta Comercial Perlemiana, 
+            su importante ubicación estratégica lo convirtió en un importante campo de batalla durante las Guerras Clon.
+        </details>
+    </card>
+    <card>
+        <name id="4">
+            Alderaan
+        </name>
+        <photo>
+            https://i.ibb.co/wS8vdDJ/alderaan.jpg
+        </photo>
+        <foot>
+            republica
+        </foot>
+        <details>
+            Alderaan, ubicado en los Mundos del Núcleo, era un planeta terrestre cubierto de montañas. 
+            Durante las últimas décadas de la República Galáctica, fue gobernado por la Reina Breha Organa 
+            y representado en el Senado Galáctico por su marido, el Senador Bail Organa.
+        </details>
+    </card>
+    <card>
+        <name id="5">
+            Coruscant
+        </name>
+        <photo>
+            https://i.ibb.co/mz2hCGh/coruscant.jpg
+        </photo>
+        <foot>
+            republica
+        </foot>
+        <details>
+            Situado en el subsector Coruscant del sector Corusca en la región de los Mundos del Núcleo, 
+            Coruscant fue un planeta cubierto por una densa ecumenópolis. Con 12,240 kilómetros de diámetro, 
+            Coruscant orbitaba relativamente lejos de su pequeño sol, variando entre 207 a 251 millones de 
+            kilómetros, por lo que no tenía un clima que favoreciera a alguna especie en particular, aunque 
+            este inconveniente fue rectificado mediante métodos tecnológicos gracias al vasto calor generado 
+            por su paisaje urbano a varios niveles. Desde el espacio, la luminosidad de Coruscant se veía 
+            ligeramente atenuada por la tenue capa de nubes del planeta. Los patrones climáticos del planeta 
+            estaban afectados por los edificios perforadores de la troposfera que cubrían la superficie del planeta. 
+            Dentro de los edificios más altos, las enormes diferencias de temperatura y presión del aire de arriba 
+            hacia abajo producían microclimas inusuales e impredecibles. Debido a este motivo, Coruscant tenía su 
+            propio sistema de control del clima. Miles de años de desarrollo destruyeron los antiguos mares y 
+            montañas del planeta. La Plaza de los Monumentos albergaba al último pico montañoso de Coruscant.
+        </details>
+    </card>
+    <card>
+        <name id="1">
+            Korriban
+        </name>
+        <photo>
+            https://i.ibb.co/pvLMRdT/korriban.jpg
+        </photo>
+        <foot>
+            sith
+        </foot>
+        <details>
+            Korriban, conocido como Pasegam durante el reinado de Xim, y como Moraband durante las Guerras Clon,
+            era el único planeta del sistema Horuset, situado al otro lado de la galaxia desde Koros Mayor. 
+            Fue el mundo nativo de las especies sith y un lugar sagrado para la Orden Sith, albergando las tumbas de 
+            antiquísimos y poderosos Señores Oscuros de los Sith y conteniendo un tremendo poder del lado oscuro.
+        </details>
+    </card>
+    <card>
+        <name id="2">
+            Takodana
+        </name>
+        <photo>
+            https://i.ibb.co/5WfPGxr/takodana.jpg
+        </photo>
+        <foot>
+            neutral
+        </foot>
+        <details>
+            Cubierto por extensas selvas y grandes lagos, Takodana era un punto de partida popular que ofrecía 
+            fácil acceso a las rutas comerciales que conectaban el Borde Interior y Territorios del Borde Exterior. 
+            Para aquellos que se dirigían hacia el exterior de la periferia galáctica, el planeta fue visto como un 
+            último sabor de la civilización, mientras que aquellos que se dirigían a los Mundos del Núcleo lo vieron 
+            como un último asimiento de la vida fronteriza. Los viajeros encontraban el estado de neutralidad del 
+            planeta y su distanciamiento de la política galáctica como características atractivas, teniendo como 
+            resultado que Takodana se convirtiera en un refugio para fugitivos, contrabandistas y exploradores. 
+            Fue conocido durante mucho tiempo como hogar del castillo de Maz Kanata, que sirvió como un puerto 
+            abierto a sospechosos espías y viajeros por igual.
+        </details>
+    </card>
+    <card>
+        <name id="3">
+            Felucia
+        </name>
+        <photo>
+            https://i.ibb.co/QpPBmcx/felucia.jpg
+        </photo>
+        <foot>
+            neutral
+        </foot>
+        <details>
+            Felucia era un planeta selvático colorido y húmedo ubicado en el sistema Felucia de los 
+            Territorios del Borde Exterior de la galaxia. Ubicada a lo largo de la Ruta Comercial Perlemiana, 
+            su importante ubicación estratégica lo convirtió en un importante campo de batalla durante las Guerras Clon.
+        </details>
+    </card>
+    <card>
+        <name id="4">
+            Alderaan
+        </name>
+        <photo>
+            https://i.ibb.co/wS8vdDJ/alderaan.jpg
+        </photo>
+        <foot>
+            republica
+        </foot>
+        <details>
+            Alderaan, ubicado en los Mundos del Núcleo, era un planeta terrestre cubierto de montañas. 
+            Durante las últimas décadas de la República Galáctica, fue gobernado por la Reina Breha Organa 
+            y representado en el Senado Galáctico por su marido, el Senador Bail Organa.
+        </details>
+    </card>
+    <card>
+        <name id="5">
+            Coruscant
+        </name>
+        <photo>
+            https://i.ibb.co/mz2hCGh/coruscant.jpg
+        </photo>
+        <foot>
+            republica
+        </foot>
+        <details>
+            Situado en el subsector Coruscant del sector Corusca en la región de los Mundos del Núcleo, 
+            Coruscant fue un planeta cubierto por una densa ecumenópolis. Con 12,240 kilómetros de diámetro, 
+            Coruscant orbitaba relativamente lejos de su pequeño sol, variando entre 207 a 251 millones de 
+            kilómetros, por lo que no tenía un clima que favoreciera a alguna especie en particular, aunque 
+            este inconveniente fue rectificado mediante métodos tecnológicos gracias al vasto calor generado 
+            por su paisaje urbano a varios niveles. Desde el espacio, la luminosidad de Coruscant se veía 
+            ligeramente atenuada por la tenue capa de nubes del planeta. Los patrones climáticos del planeta 
+            estaban afectados por los edificios perforadores de la troposfera que cubrían la superficie del planeta. 
+            Dentro de los edificios más altos, las enormes diferencias de temperatura y presión del aire de arriba 
+            hacia abajo producían microclimas inusuales e impredecibles. Debido a este motivo, Coruscant tenía su 
+            propio sistema de control del clima. Miles de años de desarrollo destruyeron los antiguos mares y 
+            montañas del planeta. La Plaza de los Monumentos albergaba al último pico montañoso de Coruscant.
+        </details>
+    </card>
+    <card>
+        <name id="1">
+            Korriban
+        </name>
+        <photo>
+            https://i.ibb.co/pvLMRdT/korriban.jpg
+        </photo>
+        <foot>
+            sith
+        </foot>
+        <details>
+            Korriban, conocido como Pasegam durante el reinado de Xim, y como Moraband durante las Guerras Clon,
+            era el único planeta del sistema Horuset, situado al otro lado de la galaxia desde Koros Mayor. 
+            Fue el mundo nativo de las especies sith y un lugar sagrado para la Orden Sith, albergando las tumbas de 
+            antiquísimos y poderosos Señores Oscuros de los Sith y conteniendo un tremendo poder del lado oscuro.
+        </details>
+    </card>
+    <card>
+        <name id="2">
+            Takodana
+        </name>
+        <photo>
+            https://i.ibb.co/5WfPGxr/takodana.jpg
+        </photo>
+        <foot>
+            neutral
+        </foot>
+        <details>
+            Cubierto por extensas selvas y grandes lagos, Takodana era un punto de partida popular que ofrecía 
+            fácil acceso a las rutas comerciales que conectaban el Borde Interior y Territorios del Borde Exterior. 
+            Para aquellos que se dirigían hacia el exterior de la periferia galáctica, el planeta fue visto como un 
+            último sabor de la civilización, mientras que aquellos que se dirigían a los Mundos del Núcleo lo vieron 
+            como un último asimiento de la vida fronteriza. Los viajeros encontraban el estado de neutralidad del 
+            planeta y su distanciamiento de la política galáctica como características atractivas, teniendo como 
+            resultado que Takodana se convirtiera en un refugio para fugitivos, contrabandistas y exploradores. 
+            Fue conocido durante mucho tiempo como hogar del castillo de Maz Kanata, que sirvió como un puerto 
+            abierto a sospechosos espías y viajeros por igual.
+        </details>
+    </card>
+    <card>
+        <name id="3">
+            Felucia
+        </name>
+        <photo>
+            https://i.ibb.co/QpPBmcx/felucia.jpg
+        </photo>
+        <foot>
+            neutral
+        </foot>
+        <details>
+            Felucia era un planeta selvático colorido y húmedo ubicado en el sistema Felucia de los 
+            Territorios del Borde Exterior de la galaxia. Ubicada a lo largo de la Ruta Comercial Perlemiana, 
+            su importante ubicación estratégica lo convirtió en un importante campo de batalla durante las Guerras Clon.
+        </details>
+    </card>
+    <card>
+        <name id="4">
+            Alderaan
+        </name>
+        <photo>
+            https://i.ibb.co/wS8vdDJ/alderaan.jpg
+        </photo>
+        <foot>
+            republica
+        </foot>
+        <details>
+            Alderaan, ubicado en los Mundos del Núcleo, era un planeta terrestre cubierto de montañas. 
+            Durante las últimas décadas de la República Galáctica, fue gobernado por la Reina Breha Organa 
+            y representado en el Senado Galáctico por su marido, el Senador Bail Organa.
+        </details>
+    </card>
+    <card>
+        <name id="5">
+            Coruscant
+        </name>
+        <photo>
+            https://i.ibb.co/mz2hCGh/coruscant.jpg
+        </photo>
+        <foot>
+            republica
+        </foot>
+        <details>
+            Situado en el subsector Coruscant del sector Corusca en la región de los Mundos del Núcleo, 
+            Coruscant fue un planeta cubierto por una densa ecumenópolis. Con 12,240 kilómetros de diámetro, 
+            Coruscant orbitaba relativamente lejos de su pequeño sol, variando entre 207 a 251 millones de 
+            kilómetros, por lo que no tenía un clima que favoreciera a alguna especie en particular, aunque 
+            este inconveniente fue rectificado mediante métodos tecnológicos gracias al vasto calor generado 
+            por su paisaje urbano a varios niveles. Desde el espacio, la luminosidad de Coruscant se veía 
+            ligeramente atenuada por la tenue capa de nubes del planeta. Los patrones climáticos del planeta 
+            estaban afectados por los edificios perforadores de la troposfera que cubrían la superficie del planeta. 
+            Dentro de los edificios más altos, las enormes diferencias de temperatura y presión del aire de arriba 
+            hacia abajo producían microclimas inusuales e impredecibles. Debido a este motivo, Coruscant tenía su 
+            propio sistema de control del clima. Miles de años de desarrollo destruyeron los antiguos mares y 
+            montañas del planeta. La Plaza de los Monumentos albergaba al último pico montañoso de Coruscant.
+        </details>
+    </card>
+</orla>

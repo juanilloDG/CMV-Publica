@@ -22,10 +22,6 @@ body {
     width: 33%;
 }
 
-.display-block {
-    display: block;
-}
-
 .display-flex {
     display: flex;
 }

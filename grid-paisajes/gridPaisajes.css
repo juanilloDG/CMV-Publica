@@ -87,10 +87,6 @@ img {
     width: 100%;
 }
 
-.text-container {
-    padding: 1%;
-}
-
 .landScape-name {
     display: flex;
     justify-content: center;

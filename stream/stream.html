@@ -16,22 +16,33 @@
 
     <main>
         <div>
-            <video height="25%" width="20%" controls crossorigin="use-credentials">
-                <source src="../multimedia/Death Star - 33050.mp4" type="video/mp4">
-                <track kind="subtitles" src="subtitles.vtt" srclang="es" label="spanish" default>
+            <video height="25%" width="20%" controls crossorigin>
+                <source src="https://juanillodg.github.io/CMV-Publica/multimedia/Death Star - 33050.mp4" type="video/mp4">
+                <track kind="subtitles" src="https://juanillodg.github.io/CMV-Publica/stream/subtitles.vtt" srclang="es" label="spanish" default>
                 <p>Your browser doesn't support HTML5 video. Here is a <a href="../multimedia/Death Star - 33050.mp4">link to the video</a> instead.</p>
             </video>
-            <audio controls>
-                <source src="../multimedia/i-am-the-senate.mp3" type="audio/mp3">
-                <track kind="captions" src="subtitles.vtt" srclang="es" label="spanish">
+            <audio controls crossorigin>
+                <source src="https://juanillodg.github.io/CMV-Publica/multimedia/i-am-the-senate.mp3" type="audio/mp3">
+                <track kind="subtitles" src="https://juanillodg.github.io/CMV-Publica/stream/subtitles.vtt" srclang="es" label="spanish" default>
                 <p>Your browser doesn't support HTML5 audio. Here is a <a href="i-am-the-senate.mp3">link to the audio</a> instead.</p>
-                
             </audio>
+        </div>
+        <div>
+
+            <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+
+            <svg width="400" height="180">
+                <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+                style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+            </svg>
+
         </div>
     </main>
     
     <footer>
 
     </footer>
+
+    <script src="stream.js"></script>
 </body>
 </html>
